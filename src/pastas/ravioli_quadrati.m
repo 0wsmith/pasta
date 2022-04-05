@@ -8,7 +8,7 @@ function points = ravioli_quadrati()
             x = fx(i, j);
             y = fy(i, j);
             z = fz(i, j);
-            points(p, :) = [ x y z ];
+            points(p, :) = real([ x y z ]);
         end
     end
 end
